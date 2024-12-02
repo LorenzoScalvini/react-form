@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./Form.module.css";
+import style from "./Form.module.css";
 
 export default function Form({ addPost }) {
   const [title, setTitle] = useState("");
@@ -32,35 +32,35 @@ export default function Form({ addPost }) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className={styles.form}>
+    <form onSubmit={handleSubmit} className={style.form}>
       <input
         type="text"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
         placeholder="Titolo"
-        className={styles.input}
+        className={style.input}
       />
       <textarea
         value={content}
         onChange={(e) => setContent(e.target.value)}
         placeholder="Contenuto"
-        className={styles.textarea}
+        className={style.textarea}
       />
       <input
         type="text"
         value={image}
         onChange={(e) => setImage(e.target.value)}
         placeholder="URL Immagine"
-        className={styles.input}
+        className={style.input}
       />
       <input
         type="text"
         value={tags}
         onChange={(e) => setTags(e.target.value)}
         placeholder="Tags"
-        className={styles.input}
+        className={style.input}
       />
-      <button type="submit" className={styles.button}>
+      <button type="submit" className={style.button}>
         Aggiungi Ricetta
       </button>
     </form>

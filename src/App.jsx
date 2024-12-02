@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Card from "./components/Card/Card";
 import Form from "./components/Form/Form";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 export default function App() {
@@ -33,6 +34,7 @@ export default function App() {
           ))}
         </div>
       </div>
+      <Footer />
     </>
   );
 }
