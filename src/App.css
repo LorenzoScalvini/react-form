@@ -3,6 +3,7 @@
   background-color: #f4f4f4;
   padding: 20px;
   text-align: center;
+  background-color: #e4dfdf;
 }
 
 h1 {
@@ -31,7 +32,7 @@ textarea {
 
 button {
   padding: 10px 20px;
-  background-color: #28a745;
+  background-color: #a1a1a1;
   color: white;
   border: none;
   border-radius: 5px;
@@ -39,7 +40,7 @@ button {
 }
 
 button:hover {
-  background-color: #218838;
+  background-color: #858585;
 }
 
 .title {

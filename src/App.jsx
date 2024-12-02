@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { posts as initialPosts } from "./data/posts";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
 import Card from "./components/Card/Card";
 import Form from "./components/Form/Form";
 import "./App.css";
@@ -13,6 +15,8 @@ export default function App() {
 
   return (
     <>
+      <Header />
+      <Hero />
       <h1 className="title">Ricette del Blog</h1>
       <div className="App">
         <Form addPost={addPost} />
