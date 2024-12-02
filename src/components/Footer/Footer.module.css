@@ -1,5 +1,5 @@
 .footer {
-  background-color: #000000;
+  background-color: #7e7e7e;
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -28,5 +28,5 @@
 }
 
 .socialLink:hover {
-  color: #00aaff;
+  color: #3b3b3b;
 }
